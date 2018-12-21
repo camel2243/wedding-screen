@@ -14,12 +14,12 @@ import uuid from 'uuid';
  */
 const pics = fs.readdirSync(path.resolve(__dirname, '../public/images'))
   .filter((f) => f.indexOf('.jpg') !== -1)
-  .map((f) => `/images/${f}`);
+  .map((f) => `/images_min/${f}`);
 
 const baseConfig = {
   admin: {
     /* The password of admin page */
-    password: 'happy',
+    password: 'camel2243',
   },
   slide: {
     /* The time interval between every pictures in milliseconds */
