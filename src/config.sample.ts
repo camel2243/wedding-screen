@@ -12,7 +12,7 @@ import uuid from 'uuid';
 /*
  * The pictures location, we place pictures at public/images
  */
-const pics = fs.readdirSync(path.resolve(__dirname, '../public/images'))
+const pics = fs.readdirSync(path.resolve(__dirname, '../public/images_min'))
   .filter((f) => f.indexOf('.jpg') !== -1)
   .map((f) => `/images_min/${f}`);
 
