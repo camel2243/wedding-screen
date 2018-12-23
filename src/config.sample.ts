@@ -34,6 +34,36 @@ const baseConfig = {
     questions: [
       {
         /* The question content */
+        text: '請問新郎與新娘名字是什麼?',
+        /* The candidate answers, every questions *MUST*
+         * contains four candidate answers, and we do not
+         * allow duplicate candidate answers */
+        options: [
+          '張景緻 && 李佩寧',
+          '張緊緻 && 李珮寧',
+          '張景智 && 李珮寧',
+          '張景智 && 李佩寧',
+        ],
+        /* The answer MUST be equal to one of the options */
+        answer: '張景智 && 李珮寧',
+      },
+      {
+        /* The question content */
+        text: '請問景智與珮寧在什麼時期在一起的?',
+        /* The candidate answers, every questions *MUST*
+         * contains four candidate answers, and we do not
+         * allow duplicate candidate answers */
+        options: [
+          '國小',
+          '國中',
+          '高中',
+          '大學',
+        ],
+        /* The answer MUST be equal to one of the options */
+        answer: '國中',
+      },
+      {
+        /* The question content */
         text: '請問景智和珮寧的交往紀念日是幾月幾日?',
         /* The candidate answers, every questions *MUST*
          * contains four candidate answers, and we do not
@@ -76,36 +106,6 @@ const baseConfig = {
         ],
         /* The answer MUST be equal to one of the options */
         answer: '澎湖',
-      },
-      {
-        /* The question content */
-        text: '請問新娘最怕什麼?',
-        /* The candidate answers, every questions *MUST*
-         * contains four candidate answers, and we do not
-         * allow duplicate candidate answers */
-        options: [
-          '蚊子',
-          '蟑螂',
-          '10年',
-          '老公',
-        ],
-        /* The answer MUST be equal to one of the options */
-        answer: '11年',
-      },
-      {
-        /* The question content */
-        text: '請問新娘最怕什麼?',
-        /* The candidate answers, every questions *MUST*
-         * contains four candidate answers, and we do not
-         * allow duplicate candidate answers */
-        options: [
-          '蚊子',
-          '蟑螂',
-          '10年',
-          '老公',
-        ],
-        /* The answer MUST be equal to one of the options */
-        answer: '11年',
       },
     ],
   },
