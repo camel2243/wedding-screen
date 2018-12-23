@@ -34,7 +34,7 @@ const baseConfig = {
     questions: [
       {
         /* The question content */
-        text: '請問新人的交往紀念日是幾月幾日?',
+        text: '請問景智和珮寧的交往紀念日是幾月幾日?',
         /* The candidate answers, every questions *MUST*
          * contains four candidate answers, and we do not
          * allow duplicate candidate answers */
@@ -49,7 +49,7 @@ const baseConfig = {
       },
       {
         /* The question content */
-        text: '請問新人目前交往了幾年?',
+        text: '請問景智和珮寧目前交往了幾年?',
         /* The candidate answers, every questions *MUST*
          * contains four candidate answers, and we do not
          * allow duplicate candidate answers */
@@ -64,15 +64,15 @@ const baseConfig = {
       },
       {
         /* The question content */
-        text: '請問新郎與新娘蜜月去了哪裡?',
+        text: '請問景智與珮寧蜜月去了哪裡?',
         /* The candidate answers, every questions *MUST*
          * contains four candidate answers, and we do not
          * allow duplicate candidate answers */
         options: [
           '義大利',
           '馬爾地夫',
+          '澎湖',
           '還沒出發',
-          '以上皆非',
         ],
         /* The answer MUST be equal to one of the options */
         answer: '澎湖',
