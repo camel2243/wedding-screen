@@ -40,12 +40,12 @@ const baseConfig = {
          * allow duplicate candidate answers */
         options: [
           '12月31日',
-          '11月/11日',
-          '10月/31日',
-          '01月/01日',
+          '11月11日',
+          '10月31日',
+          '01月01日',
         ],
         /* The answer MUST be equal to one of the options */
-        answer: '11月/11日',
+        answer: '11月11日',
       },
       {
         /* The question content */
@@ -58,6 +58,51 @@ const baseConfig = {
           '8年',
           '10年',
           '11年',
+        ],
+        /* The answer MUST be equal to one of the options */
+        answer: '11年',
+      },
+      {
+        /* The question content */
+        text: '請問新郎與新娘蜜月去了哪裡?',
+        /* The candidate answers, every questions *MUST*
+         * contains four candidate answers, and we do not
+         * allow duplicate candidate answers */
+        options: [
+          '義大利',
+          '馬爾地夫',
+          '還沒出發',
+          '以上皆非',
+        ],
+        /* The answer MUST be equal to one of the options */
+        answer: '澎湖',
+      },
+      {
+        /* The question content */
+        text: '請問新娘最怕什麼?',
+        /* The candidate answers, every questions *MUST*
+         * contains four candidate answers, and we do not
+         * allow duplicate candidate answers */
+        options: [
+          '蚊子',
+          '蟑螂',
+          '10年',
+          '老公',
+        ],
+        /* The answer MUST be equal to one of the options */
+        answer: '11年',
+      },
+      {
+        /* The question content */
+        text: '請問新娘最怕什麼?',
+        /* The candidate answers, every questions *MUST*
+         * contains four candidate answers, and we do not
+         * allow duplicate candidate answers */
+        options: [
+          '蚊子',
+          '蟑螂',
+          '10年',
+          '老公',
         ],
         /* The answer MUST be equal to one of the options */
         answer: '11年',
