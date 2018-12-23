@@ -34,7 +34,7 @@ const baseConfig = {
     questions: [
       {
         /* The question content */
-        text: '請問新郎與新娘名字是什麼?',
+        text: '第一題: 請問新郎與新娘名字是什麼?',
         /* The candidate answers, every questions *MUST*
          * contains four candidate answers, and we do not
          * allow duplicate candidate answers */
@@ -49,7 +49,7 @@ const baseConfig = {
       },
       {
         /* The question content */
-        text: '請問景智與珮寧在什麼時期在一起的?',
+        text: '第二題: 請問景智與珮寧在什麼時期在一起的?',
         /* The candidate answers, every questions *MUST*
          * contains four candidate answers, and we do not
          * allow duplicate candidate answers */
@@ -64,7 +64,7 @@ const baseConfig = {
       },
       {
         /* The question content */
-        text: '請問景智和珮寧的交往紀念日是幾月幾日?',
+        text: '第三題: 請問景智和珮寧的交往紀念日是幾月幾日?',
         /* The candidate answers, every questions *MUST*
          * contains four candidate answers, and we do not
          * allow duplicate candidate answers */
@@ -79,7 +79,7 @@ const baseConfig = {
       },
       {
         /* The question content */
-        text: '請問景智和珮寧目前交往了幾年?',
+        text: '第四題: 請問景智和珮寧目前交往了幾年?',
         /* The candidate answers, every questions *MUST*
          * contains four candidate answers, and we do not
          * allow duplicate candidate answers */
@@ -94,7 +94,7 @@ const baseConfig = {
       },
       {
         /* The question content */
-        text: '請問景智與珮寧蜜月去了哪裡?',
+        text: '最後一題: 請問景智與珮寧蜜月去了哪裡?',
         /* The candidate answers, every questions *MUST*
          * contains four candidate answers, and we do not
          * allow duplicate candidate answers */
