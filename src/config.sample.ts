@@ -34,33 +34,33 @@ const baseConfig = {
     questions: [
       {
         /* The question content */
-        text: 'Something is small, red, round and sweet?',
+        text: '請問新人的交往紀念日是幾月幾日?',
         /* The candidate answers, every questions *MUST*
          * contains four candidate answers, and we do not
          * allow duplicate candidate answers */
         options: [
-          'Orange',
-          'Apple',
-          'Cherry',
-          'Strawberry',
+          '12月31日',
+          '11月/11日',
+          '10月/31日',
+          '01月/01日',
         ],
         /* The answer MUST be equal to one of the options */
-        answer: 'Apple',
+        answer: '11月/11日',
       },
       {
         /* The question content */
-        text: 'Something starts with an H and ends with an oof?',
+        text: '請問新人目前交往了幾年?',
         /* The candidate answers, every questions *MUST*
          * contains four candidate answers, and we do not
          * allow duplicate candidate answers */
         options: [
-          'Bokoblin',
-          'Moblin',
-          'Lynel Hoof',
-          'Lizalfos',
+          '5年',
+          '8年',
+          '10年',
+          '11年',
         ],
         /* The answer MUST be equal to one of the options */
-        answer: 'Lynel Hoof',
+        answer: '11年',
       },
     ],
   },
