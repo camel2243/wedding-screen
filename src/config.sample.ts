@@ -19,7 +19,7 @@ const pics = fs.readdirSync(path.resolve(__dirname, '../public/images_min'))
 const baseConfig = {
   admin: {
     /* The password of admin page */
-    password: 'haapyweddingscreen',
+    password: 'happyweddingscreen',
   },
   slide: {
     /* The time interval between every pictures in milliseconds */
